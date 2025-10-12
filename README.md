@@ -1,7 +1,7 @@
 <!-- Profile README for Sanjay Kumar Saini -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kumar+Saini;AI+%2B+Engineering+Enthusiast;Full+Stack+%7C+ML+%7C+Cloud+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kumar+Saini;Full+Stack+%7C+ML+%7C+Cloud+Developer" alt="Typing SVG" />
 </h1>
 
 <p align="center">
