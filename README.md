@@ -1,7 +1,7 @@
 <!-- Profile README for Sanjay Kumar Saini -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=29&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kum"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=29&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kumar+Saini"/>
 </h1>
 
 <p align="center">
