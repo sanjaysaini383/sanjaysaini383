@@ -1,7 +1,7 @@
 <!-- Profile README for Sanjay Kumar Saini -->
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=29&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kumar+Saini;Full+Stack+%7C+AI/ML+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=29&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kum"/>
 </h1>
 
 <p align="center">
@@ -71,10 +71,21 @@
 
 ## 3️⃣ GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165">
-</p>
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165">
+    </td>
+    <td align="center" valign="top" width="50%">
+      <h3>🏆 Achievements</h3>
+      <p align="left">
+        <ul>
+          <li>🏅 <strong>Achievement Title</strong> — Short description. (Edit this to add your real achievement)</li>
+        </ul>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
