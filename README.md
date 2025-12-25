@@ -77,12 +77,7 @@
       <img src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165">
     </td>
     <td align="center" valign="top" width="50%">
-      <h3>🏆 Achievements</h3>
-      <p align="left">
-        <ul>
-          <li>🏅 <strong>Achievement Title</strong> — Short description. (Edit this to add your real achievement)</li>
-        </ul>
-      </p>
+    
     </td>
   </tr>
 </table>
