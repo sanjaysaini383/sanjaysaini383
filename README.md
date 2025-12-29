@@ -74,8 +74,6 @@
 <div align="center">
   
   <img src="https://github-readme-stats-rho-eight-44.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
-  
-  <img src="https://streak-stats.demolab.com?user=sanjaysaini383&theme=radical&hide_border=true" alt="GitHub Streak" height="180"/>
-  
+   
 </div>
 
