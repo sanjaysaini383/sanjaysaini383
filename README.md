@@ -79,14 +79,3 @@
   
 </div>
 
-<div align="center">
-  
-  <img src="https://github-readme-stats-rho-eight-44.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="180"/>
-  
-</div>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:181717,100:0099ff&height=100&section=footer"/>
-</p>
