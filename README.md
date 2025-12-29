@@ -73,20 +73,17 @@
 
 <div align="center">
   
-  <!-- Option 1: Using updated parameters -->
-  <img src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-rho-eight-44.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
   
-  <!-- Option 2: GitHub Streak Stats (more reliable alternative) -->
   <img src="https://streak-stats.demolab.com?user=sanjaysaini383&theme=radical&hide_border=true" alt="GitHub Streak" height="180"/>
   
 </div>
 
-<!-- <div align="center">
+<div align="center">
   
-  <!-- Top Languages Card -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats-rho-eight-44.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="180"/>
   
-</div> -->
+</div>
 
 ---
 
