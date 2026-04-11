@@ -73,7 +73,7 @@
 
 <div align="center">
   
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" height="180" />
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" height="180" />
    
 </div>
 
