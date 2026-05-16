@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- 3D ANIMATED HEADER via SVG -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:0a0a0f,50:0d1b2a,100:0a0a0f&text=Sanjay%20Kumar%20Saini&fontColor=00d4ff&fontSize=52&fontAlignY=45&desc=Full%20Stack%20Engineer%20%7C%20AI%20Systems%20Builder&descColor=7dd3fc&descSize=18&descAlignY=65&animation=fadeIn&stroke=00d4ff&strokeWidth=2" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:0a0a0f,50:0d1b2a,100:0a0a0f&text=Sanjay%20Kumar%20Saini&fontColor=00d4ff&fontSize=52&fontAlignY=45&desc=Full%20Stack%20Engineer%20%7C%20AI%20Systems%20Builder&descColor=7dd3fc&descSize=18&descAlignY=65&animation=fadeIn&stroke=00d4ff&strokeWidth=2" alt="header"/>
 
 </div>
 
