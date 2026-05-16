@@ -1,77 +1,122 @@
-<!-- Profile README for Sanjay Kumar Saini -->
+<div align="center">
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=29&duration=3500&pause=500&color=0099FF&vCenter=true&random=false&width=500&height=60&lines=Hi+%F0%9F%91%8B%2C+I'm+Sanjay+Kumar+Saini"/>
-</h1>
+<!-- 3D ANIMATED HEADER via SVG -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:0a0a0f,50:0d1b2a,100:0a0a0f&text=Sanjay%20Kumar%20Saini&fontColor=00d4ff&fontSize=52&fontAlignY=45&desc=Full%20Stack%20Engineer%20%7C%20AI%20Systems%20Builder&descColor=7dd3fc&descSize=18&descAlignY=65&animation=fadeIn&stroke=00d4ff&strokeWidth=2" alt="header"/>
 
-<p align="center">
-  <b>Blending AI and engineering to create impactful, data-driven solutions.</b>
-</p>
-
----
-
-## 1️⃣ Main Skills & Technologies
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <h3>🚀 <span style="color:#0099ff">Full Stack Development</span></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-        <img src="https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
-        <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React.js"/>
-        <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-        <br><br>
-        <img src="https://img.shields.io/badge/-React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
-        <img src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/>
-        <br><br>
-        <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-        <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-        <br><br>
-        <img src="https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-        <img src="https://img.shields.io/badge/-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io"/>
-        <img src="https://img.shields.io/badge/-REST%20API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API"/>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3>🤖 <span style="color:#f39c12">AI/ML & Data Science</span></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" alt="C++"/>
-        <br><br>
-        <img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-        <img src="https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-        <img src="https://img.shields.io/badge/-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
-        <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-        <br><br>
-        <img src="https://img.shields.io/badge/-Deep%20Learning-272525?style=for-the-badge&logo=deezer&logoColor=FF0000" alt="Deep Learning"/>
-        <img src="https://img.shields.io/badge/-Data%20Visualization-6E4C13?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Data Visualization"/>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## 2️⃣ Contact & Social Links
-
-<p align="center">
-  <a href="mailto:sanjaysaini4423@gmail.com" title="Email">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/sanjay-kumar-saini-999167299" target="_blank" title="LinkedIn">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/sanjaysaini383" target="_blank" title="GitHub">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
-
----
-
-## 3️⃣ GitHub Stats
+</div>
 
 <div align="center">
-  <img src="https://stats-eight-theta.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=radical" height="180" />
+
+<!-- Typing animation -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=Building+AI-powered+full+stack+apps;RAG+pipelines+%7C+Voice+agents+%7C+Real-time+systems;Competitive+Programmer+%7C+C%2B%2B+%7C+DSA;MERN+%7C+Docker+%7C+AWS+%7C+WebSockets" alt="typing"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<!-- CONTACT BADGES - sharp style -->
+[![Email](https://img.shields.io/badge/Gmail-sanjaysaini4423-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanjaysaini4423@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sanjay_Kumar_Saini-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sanjay-kumar-saini-999167299)
+[![GitHub](https://img.shields.io/badge/GitHub-sanjaysaini383-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanjaysaini383)
+[![Profile Views](https://komarev.com/ghpvc/?username=sanjaysaini383&style=for-the-badge&color=00d4ff&label=PROFILE+VIEWS)](https://github.com/sanjaysaini383)
+
+</div>
+
+---
+
+## ⚡ About
+
+```ts
+const sanjay = {
+  role     : "Full Stack Engineer + AI Systems Builder",
+  focus    : ["RAG pipelines", "Real-time voice agents", "Web infrastructure"],
+  cp       : "Competitive programming in C++ | DSA enthusiast",
+  stack    : ["MERN", "React Native", "Docker", "AWS", "Socket.io"],
+  ai       : ["LangChain", "OpenAI", "Vector DBs", "TensorFlow", "Scikit-learn"],
+  currently: "Building AI-integrated products that ship to real users",
+};
+```
+
+---
+
+## 🔥 Tech Arsenal
+
+<div align="center">
+
+### 🌐 Full Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
+
+### 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+### 🤖 AI / ML
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-6B46C1?style=for-the-badge&logo=databricks&logoColor=white)
+![Speech-to-Text](https://img.shields.io/badge/Speech--to--Text-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+### ⚙️ DevOps & Systems
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&rank_icon=github" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=sanjaysaini383&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff" />
+
+</div>
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8" />
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanjaysaini383&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ff6b35&area=true&hide_border=true" />
+
+</div>
+
+---
+
+## 🏆 Trophies
+
+<div align="center">
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=sanjaysaini383&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" />
+
 </div>
 
