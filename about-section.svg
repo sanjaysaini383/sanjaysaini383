@@ -38,14 +38,12 @@
   <!-- BG -->
   <rect width="900" height="320" fill="url(#bg)" rx="12"/>
   <rect class="scan" x="0" y="0" width="900" height="2" fill="#00ff00" rx="1"/>
-  <rect width="900" height="320" fill="none" rx="12"
-        stroke="#00ff00" stroke-width="1.8" stroke-opacity="0.5"/>
 
   <!-- Corner brackets -->
-  <polyline points="16,40 16,16 40,16"   fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
+  <!-- <polyline points="16,40 16,16 40,16"   fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
   <polyline points="16,280 16,304 40,304" fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
   <polyline points="884,40 884,16 860,16"   fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
-  <polyline points="884,280 884,304 860,304" fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
+  <polyline points="884,280 884,304 860,304" fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/> -->
 
   <!-- Section label -->
   <g class="l1">
