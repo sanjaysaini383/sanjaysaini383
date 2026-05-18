@@ -1,16 +1,7 @@
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:0a0a0f,50:0d1b2a,100:0a0a0f&text=Sanjay%20Kumar%20Saini&fontColor=00d4ff&fontSize=52&fontAlignY=45&desc=Full%20Stack%20Engineer%20%7C%20AI%20Systems%20Builder&descColor=7dd3fc&descSize=18&descAlignY=65&animation=fadeIn&stroke=00d4ff&strokeWidth=2" alt="header"/>
-</div>
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=Building+AI-powered+full+stack+apps;RAG+pipelines+%7C+Voice+agents+%7C+Real-time+systems;Competitive+Programmer+%7C+C%2B%2B+%7C+DSA;MERN+%7C+Docker+%7C+AWS+%7C+WebSockets" alt="typing"/>
-</div>
-
----
-
-<p align="center">
   <img src="./terminal-header.svg" alt="Sanjay Kumar Saini - Full Stack Engineer" width="100%"/>
-</p>
+</div>
 
 ---
 
