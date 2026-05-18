@@ -1,0 +1,360 @@
+<svg width="900" height="620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%"   stop-color="#001500"/>
+      <stop offset="60%"  stop-color="#000d00"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes scan2 {
+        0%   { transform:translateY(0);    opacity:0.05; }
+        50%  { opacity:0.1; }
+        100% { transform:translateY(620px); opacity:0.05; }
+      }
+      @keyframes fadeIn2 { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes badgePulse {
+        0%,100% { stroke-opacity:0.7; }
+        50%     { stroke-opacity:1.0; }
+      }
+      .sc2  { animation: scan2 4.5s linear infinite; }
+      .g1   { animation: fadeIn2 .5s ease-out .1s  both; }
+      .g2   { animation: fadeIn2 .5s ease-out .3s  both; }
+      .g3   { animation: fadeIn2 .5s ease-out .5s  both; }
+      .g4   { animation: fadeIn2 .5s ease-out .7s  both; }
+      .g5   { animation: fadeIn2 .5s ease-out .9s  both; }
+      .g6   { animation: fadeIn2 .5s ease-out 1.1s both; }
+      .g7   { animation: fadeIn2 .5s ease-out 1.3s both; }
+      .g8   { animation: fadeIn2 .5s ease-out 1.5s both; }
+      .badge { animation: badgePulse 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="620" fill="url(#bg2)" rx="12"/>
+  <rect class="sc2" x="0" y="0" width="900" height="2" fill="#00ff00" rx="1"/>
+  <rect width="900" height="620" fill="none" rx="12"
+        stroke="#00ff00" stroke-width="1.8" stroke-opacity="0.5"/>
+
+  <!-- Corner brackets -->
+  <polyline points="16,40 16,16 40,16"    fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
+  <polyline points="16,580 16,604 40,604"  fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
+  <polyline points="884,40 884,16 860,16"    fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
+  <polyline points="884,580 884,604 860,604" fill="none" stroke="#00ff00" stroke-width="2" stroke-opacity="0.85"/>
+
+  <!-- Title -->
+  <g class="g1">
+    <rect x="30" y="20" width="220" height="24" rx="3"
+          fill="none" stroke="#00ff00" stroke-width="1.2" stroke-opacity="0.7"/>
+    <text x="42" y="36" font-family="'Courier New',monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.8" letter-spacing="3">TECH_ARSENAL.SYS</text>
+  </g>
+
+  <!-- ═══ SECTION: FULL STACK ═══ -->
+  <g class="g2">
+    <!-- Section header -->
+    <line x1="30" y1="68" x2="870" y2="68" stroke="#00ff00" stroke-width="1" stroke-opacity="0.25"/>
+    <rect x="30" y="58" width="16" height="16" rx="2"
+          fill="#00ff00" fill-opacity="0.15" stroke="#00ff00" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="54" y="70" font-family="'Courier New',monospace" font-size="12"
+          fill="#00ff00" fill-opacity="0.6" letter-spacing="3">[ FULL_STACK ]</text>
+
+    <!-- Row 1 badges -->
+    <!-- React -->
+    <rect class="badge" x="30"  y="82" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="86"  y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⚛ React</text>
+
+    <!-- Next.js -->
+    <rect class="badge" x="148" y="82" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="202" y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">▲ Next.js</text>
+
+    <!-- Node.js -->
+    <rect class="badge" x="266" y="82" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="320" y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⬡ Node.js</text>
+
+    <!-- Express -->
+    <rect class="badge" x="384" y="82" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="438" y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◈ Express</text>
+
+    <!-- FastAPI -->
+    <rect class="badge" x="502" y="82" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="556" y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⚡ FastAPI</text>
+
+    <!-- TypeScript -->
+    <rect class="badge" x="620" y="82" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="680" y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">TS TypeScript</text>
+
+    <!-- TailwindCSS -->
+    <rect class="badge" x="750" y="82" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="810" y="103" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◎ Tailwind</text>
+
+    <!-- Row 2 -->
+    <!-- Socket.io -->
+    <rect class="badge" x="30"  y="124" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="84"  y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⟳ Socket.io</text>
+
+    <!-- WebRTC -->
+    <rect class="badge" x="148" y="124" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="202" y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◉ WebRTC</text>
+
+    <!-- JWT -->
+    <rect class="badge" x="266" y="124" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="320" y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🔐 JWT</text>
+
+    <!-- Prisma -->
+    <rect class="badge" x="384" y="124" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="438" y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◆ Prisma</text>
+
+    <!-- Three.js -->
+    <rect class="badge" x="502" y="124" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="556" y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">△ Three.js</text>
+
+    <!-- React Native -->
+    <rect class="badge" x="620" y="124" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="680" y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⚛ RN Mobile</text>
+
+    <!-- Razorpay -->
+    <rect class="badge" x="750" y="124" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="810" y="145" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">₹ Razorpay</text>
+  </g>
+
+  <!-- ═══ SECTION: DATABASES ═══ -->
+  <g class="g3">
+    <line x1="30" y1="178" x2="870" y2="178" stroke="#00ff00" stroke-width="1" stroke-opacity="0.25"/>
+    <rect x="30" y="168" width="16" height="16" rx="2"
+          fill="#00ff00" fill-opacity="0.15" stroke="#00ff00" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="54" y="180" font-family="'Courier New',monospace" font-size="12"
+          fill="#00ff00" fill-opacity="0.6" letter-spacing="3">[ DATABASES ]</text>
+
+    <!-- MongoDB -->
+    <rect class="badge" x="30"  y="192" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="84"  y="213" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🌿 MongoDB</text>
+
+    <!-- PostgreSQL -->
+    <rect class="badge" x="148" y="192" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="208" y="213" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🐘 PostgreSQL</text>
+
+    <!-- MySQL -->
+    <rect class="badge" x="278" y="192" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="332" y="213" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🐬 MySQL</text>
+
+    <!-- Redis -->
+    <rect class="badge" x="396" y="192" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="450" y="213" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⚡ Redis</text>
+
+    <!-- Firebase -->
+    <rect class="badge" x="514" y="192" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="568" y="213" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🔥 Firebase</text>
+
+    <!-- Vector DB -->
+    <rect class="badge" x="632" y="192" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="692" y="213" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◈ Vector DB</text>
+  </g>
+
+  <!-- ═══ SECTION: AI / ML ═══ -->
+  <g class="g4">
+    <line x1="30" y1="246" x2="870" y2="246" stroke="#00ff00" stroke-width="1" stroke-opacity="0.25"/>
+    <rect x="30" y="236" width="16" height="16" rx="2"
+          fill="#00ff00" fill-opacity="0.15" stroke="#00ff00" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="54" y="248" font-family="'Courier New',monospace" font-size="12"
+          fill="#00ff00" fill-opacity="0.6" letter-spacing="3">[ AI / ML ]</text>
+
+    <!-- Row 1 -->
+    <!-- Python -->
+    <rect class="badge" x="30"  y="260" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="84"  y="281" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🐍 Python</text>
+
+    <!-- OpenAI -->
+    <rect class="badge" x="148" y="260" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="202" y="281" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◎ OpenAI</text>
+
+    <!-- LangChain -->
+    <rect class="badge" x="266" y="260" width="118" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="325" y="281" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⛓ LangChain</text>
+
+    <!-- LangGraph -->
+    <rect class="badge" x="394" y="260" width="118" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="453" y="281" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⟳ LangGraph</text>
+
+    <!-- TensorFlow -->
+    <rect class="badge" x="522" y="260" width="118" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="581" y="281" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◈ TensorFlow</text>
+
+    <!-- Scikit -->
+    <rect class="badge" x="650" y="260" width="120" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="710" y="281" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◉ Scikit-learn</text>
+
+    <!-- Row 2 -->
+    <!-- Pandas -->
+    <rect class="badge" x="30"  y="302" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="84"  y="323" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🐼 Pandas</text>
+
+    <!-- NumPy -->
+    <rect class="badge" x="148" y="302" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="202" y="323" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">∑ NumPy</text>
+
+    <!-- RAG -->
+    <rect class="badge" x="266" y="302" width="118" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="325" y="323" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◆ RAG Pipeline</text>
+
+    <!-- MediaPipe -->
+    <rect class="badge" x="394" y="302" width="118" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="453" y="323" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">👁 MediaPipe</text>
+
+    <!-- STT -->
+    <rect class="badge" x="522" y="302" width="118" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="581" y="323" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🎙 Speech-to-Text</text>
+  </g>
+
+  <!-- ═══ SECTION: DEVOPS ═══ -->
+  <g class="g5">
+    <line x1="30" y1="356" x2="870" y2="356" stroke="#00ff00" stroke-width="1" stroke-opacity="0.25"/>
+    <rect x="30" y="346" width="16" height="16" rx="2"
+          fill="#00ff00" fill-opacity="0.15" stroke="#00ff00" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="54" y="358" font-family="'Courier New',monospace" font-size="12"
+          fill="#00ff00" fill-opacity="0.6" letter-spacing="3">[ DEVOPS_AND_SYSTEMS ]</text>
+
+    <!-- C++ -->
+    <rect class="badge" x="30"  y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="84"  y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⚙ C++</text>
+
+    <!-- Docker -->
+    <rect class="badge" x="148" y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="202" y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🐳 Docker</text>
+
+    <!-- AWS EC2 -->
+    <rect class="badge" x="266" y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="320" y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">☁ AWS EC2</text>
+
+    <!-- Nginx -->
+    <rect class="badge" x="384" y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="438" y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">◎ Nginx</text>
+
+    <!-- Git -->
+    <rect class="badge" x="502" y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="556" y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⎇ Git</text>
+
+    <!-- Linux -->
+    <rect class="badge" x="620" y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="674" y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">🐧 Linux</text>
+
+    <!-- CI/CD -->
+    <rect class="badge" x="738" y="370" width="108" height="32" rx="4"
+          fill="#00ff00" fill-opacity="0.05" stroke="#00ff00" stroke-width="1.2"/>
+    <text x="792" y="391" text-anchor="middle" font-family="'Courier New',monospace"
+          font-size="12" fill="#00ff00" fill-opacity="0.85">⟳ CI/CD</text>
+  </g>
+
+  <!-- ═══ BOTTOM STATUS BAR ═══ -->
+  <g class="g6">
+    <line x1="30" y1="430" x2="870" y2="430"
+          stroke="#00ff00" stroke-width="1" stroke-opacity="0.2"/>
+    <text x="30" y="450" font-family="'Courier New',monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.3" letter-spacing="2">
+      &gt; TECHNOLOGIES LOADED: 35+  |  STATUS: ALL SYSTEMS OPERATIONAL  |  BUILD: PASSING ✓
+    </text>
+  </g>
+
+  <!-- ═══ SKILL MATRIX GRID ═══ -->
+  <g class="g7" opacity="0.12">
+    <!-- decorative right-side dot grid -->
+    <circle cx="820" cy="470" r="1.5" fill="#00ff00"/>
+    <circle cx="840" cy="470" r="1.5" fill="#00ff00"/>
+    <circle cx="860" cy="470" r="1.5" fill="#00ff00"/>
+    <circle cx="820" cy="490" r="1.5" fill="#00ff00"/>
+    <circle cx="840" cy="490" r="1.5" fill="#00ff00"/>
+    <circle cx="860" cy="490" r="1.5" fill="#00ff00"/>
+    <circle cx="820" cy="510" r="1.5" fill="#00ff00"/>
+    <circle cx="840" cy="510" r="1.5" fill="#00ff00"/>
+    <circle cx="860" cy="510" r="1.5" fill="#00ff00"/>
+  </g>
+
+  <!-- Footer binary -->
+  <g class="g8">
+    <text x="30" y="480" font-family="monospace" font-size="10"
+          fill="#00ff00" fill-opacity="0.12">
+      01010011 01000001 01001110 01001010 01000001 01011001
+    </text>
+    <text x="30" y="496" font-family="monospace" font-size="10"
+          fill="#00ff00" fill-opacity="0.08">
+      01000011 01001111 01000100 01000101 01010010
+    </text>
+  </g>
+</svg>
