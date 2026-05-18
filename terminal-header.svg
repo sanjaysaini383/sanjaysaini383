@@ -1,0 +1,286 @@
+<svg width="1500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#001a00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+
+    <!-- Green glow filter -->
+    <filter id="greenGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Strong glow for orb -->
+    <filter id="orbGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow for text -->
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Matrix rain gradient -->
+    <linearGradient id="matrixFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#00ff00;stop-opacity:0"/>
+    </linearGradient>
+
+    <!-- Orb gradient -->
+    <radialGradient id="orbGrad" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" style="stop-color:#88ff88;stop-opacity:1"/>
+      <stop offset="40%" style="stop-color:#00ff00;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#003300;stop-opacity:1"/>
+    </radialGradient>
+
+    <!-- Orbit ring gradient -->
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#00ff00;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#00ff00;stop-opacity:0"/>
+    </linearGradient>
+
+    <style>
+      @keyframes matrixRain1 {
+        0%   { transform: translateY(-20px); opacity: 0.7; }
+        100% { transform: translateY(300px); opacity: 0; }
+      }
+      @keyframes matrixRain2 {
+        0%   { transform: translateY(-20px); opacity: 0.5; }
+        100% { transform: translateY(300px); opacity: 0; }
+      }
+      @keyframes orbPulse {
+        0%, 100% { filter: url(#orbGlow); opacity: 1; }
+        50%       { opacity: 0.85; }
+      }
+      @keyframes orbitSpin {
+        0%   { transform: rotateX(70deg) rotateZ(0deg);   }
+        100% { transform: rotateX(70deg) rotateZ(360deg); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes fadeInUp {
+        0%   { opacity: 0; transform: translateY(15px); }
+        100% { opacity: 1; transform: translateY(0);    }
+      }
+      .matrix-col { animation: matrixRain1 4s linear infinite; }
+      .matrix-col2 { animation: matrixRain2 6s linear infinite; }
+      .matrix-col3 { animation: matrixRain1 5s linear infinite 1s; }
+      .matrix-col4 { animation: matrixRain2 7s linear infinite 2s; }
+      .orb-group  { animation: orbPulse 3s ease-in-out infinite; }
+      .cursor     { animation: blink 1s step-end infinite; }
+      .main-title { animation: fadeInUp 1s ease-out 0.3s both; }
+      .sub-text   { animation: fadeInUp 1s ease-out 0.7s both; }
+      .badges     { animation: fadeInUp 1s ease-out 1.1s both; }
+    </style>
+  </defs>
+
+  <!-- ═══════════════════════ BACKGROUND ═══════════════════════ -->
+  <rect width="1500" height="300" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Scanline overlay -->
+  <rect width="1500" height="300" fill="none" rx="12"
+        stroke="#00ff00" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- ═══════════════════════ MATRIX RAIN (LEFT ZONE) ═══════════════════════ -->
+  <!-- Column 1 -->
+  <g class="matrix-col" style="animation-duration:3.5s;">
+    <text x="420" y="0" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.25">0</text>
+    <text x="420" y="15" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.2">1</text>
+    <text x="420" y="30" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.15">0</text>
+    <text x="420" y="45" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.1">1</text>
+    <text x="420" y="60" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.05">1</text>
+  </g>
+
+  <!-- Column 2 -->
+  <g class="matrix-col2" style="animation-duration:5s; animation-delay:1s;">
+    <text x="470" y="0"  font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.2">1</text>
+    <text x="470" y="15" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.15">0</text>
+    <text x="470" y="30" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.1">0</text>
+  </g>
+
+  <!-- Column 3 -->
+  <g class="matrix-col3" style="animation-delay:0.5s;">
+    <text x="520" y="0"  font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.2">0</text>
+    <text x="520" y="15" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.15">1</text>
+    <text x="520" y="30" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.1">1</text>
+    <text x="520" y="45" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.05">0</text>
+  </g>
+
+  <!-- ═══════════════════════ MATRIX RAIN (RIGHT ZONE) ═══════════════════════ -->
+  <g class="matrix-col4" style="animation-duration:4s; animation-delay:0.8s;">
+    <text x="1050" y="0"  font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.25">01001000</text>
+    <text x="1050" y="18" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.2">01000001</text>
+    <text x="1050" y="36" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.15">01000011</text>
+    <text x="1050" y="54" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.1">01001011</text>
+  </g>
+
+  <g class="matrix-col" style="animation-duration:6s; animation-delay:2s;">
+    <text x="1050" y="240" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.25">01010011</text>
+    <text x="1050" y="258" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.2">01000001</text>
+    <text x="1050" y="276" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.15">01001110</text>
+    <text x="1050" y="294" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.1">01001010</text>
+    <text x="1260" y="258" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.15">01000001</text>
+    <text x="1260" y="276" font-family="monospace" font-size="11"
+          fill="#00ff00" fill-opacity="0.1">01010001</text>
+  </g>
+
+  <!-- ═══════════════════════ CORNER BRACKETS ═══════════════════════ -->
+  <!-- Top-left -->
+  <polyline points="20,40 20,20 40,20"   fill="none" stroke="#00ff00"
+            stroke-width="2.5" stroke-opacity="0.8"/>
+  <!-- Bottom-left -->
+  <polyline points="20,260 20,280 40,280" fill="none" stroke="#00ff00"
+            stroke-width="2.5" stroke-opacity="0.8"/>
+  <!-- Top-right -->
+  <polyline points="1460,40 1460,20 1440,20"   fill="none" stroke="#00ff00"
+            stroke-width="2.5" stroke-opacity="0.8"/>
+  <!-- Bottom-right -->
+  <polyline points="1460,260 1460,280 1440,280" fill="none" stroke="#00ff00"
+            stroke-width="2.5" stroke-opacity="0.8"/>
+
+  <!-- ═══════════════════════ HORIZONTAL DIVIDER LINE ═══════════════════════ -->
+  <line x1="40" y1="190" x2="1200" y2="190"
+        stroke="#00ff00" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- ═══════════════════════ ROLE BADGE ═══════════════════════ -->
+  <rect x="40" y="38" width="220" height="28" rx="3"
+        fill="none" stroke="#00ff00" stroke-width="1.5" stroke-opacity="0.9"/>
+  <text x="55" y="57" font-family="'Courier New', monospace" font-size="13"
+        fill="#00ff00" letter-spacing="3" filter="url(#textGlow)">FULL STACK ENGINEER</text>
+
+  <!-- ═══════════════════════ MAIN TITLE ═══════════════════════ -->
+  <g class="main-title">
+    <text x="40" y="130" font-family="'Courier New', monospace"
+          font-size="68" font-weight="900" fill="#00ff00"
+          letter-spacing="-1" filter="url(#greenGlow)">Sanjay Kumar</text>
+    <text x="40" y="185" font-family="'Courier New', monospace"
+          font-size="68" font-weight="900" fill="#00ff00"
+          letter-spacing="-1" filter="url(#greenGlow)">Saini</text>
+  </g>
+
+  <!-- ═══════════════════════ DESCRIPTION ═══════════════════════ -->
+  <g class="sub-text">
+    <text x="40" y="218" font-family="'Courier New', monospace"
+          font-size="16" fill="#00ff00" fill-opacity="0.75">Engineering
+      <tspan font-weight="bold" fill="#00ff00" filter="url(#textGlow)">AI-powered</tspan>
+      full-stack systems</text>
+    <text x="40" y="238" font-family="'Courier New', monospace"
+          font-size="16" fill="#00ff00" fill-opacity="0.75">and
+      <tspan font-weight="bold" fill="#00ff00" filter="url(#textGlow)">RAG pipelines</tspan>
+      · Voice agents · WebSockets</text>
+  </g>
+
+  <!-- ═══════════════════════ TECH BADGES ═══════════════════════ -->
+  <g class="badges">
+    <!-- MERN -->
+    <rect x="40" y="255" width="82" height="26" rx="4"
+          fill="none" stroke="#00ff00" stroke-width="1.5" stroke-opacity="0.9"/>
+    <text x="81" y="273" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" fill="#00ff00" letter-spacing="1">MERN</text>
+
+    <!-- LangChain -->
+    <rect x="134" y="255" width="108" height="26" rx="4"
+          fill="none" stroke="#00ff00" stroke-width="1.5" stroke-opacity="0.9"/>
+    <text x="188" y="273" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" fill="#00ff00" letter-spacing="1">LangChain</text>
+
+    <!-- C++ / DSA -->
+    <rect x="254" y="255" width="100" height="26" rx="4"
+          fill="none" stroke="#00ff00" stroke-width="1.5" stroke-opacity="0.9"/>
+    <text x="304" y="273" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" fill="#00ff00" letter-spacing="1">C++ / DSA</text>
+
+    <!-- Docker · AWS -->
+    <rect x="366" y="255" width="120" height="26" rx="4"
+          fill="none" stroke="#00ff00" stroke-width="1.5" stroke-opacity="0.9"/>
+    <text x="426" y="273" text-anchor="middle" font-family="'Courier New', monospace"
+          font-size="13" fill="#00ff00" letter-spacing="1">Docker · AWS</text>
+  </g>
+
+  <!-- ═══════════════════════ BLINKING CURSOR ═══════════════════════ -->
+  <rect class="cursor" x="40" y="293" width="10" height="2"
+        fill="#00ff00" fill-opacity="0.8"/>
+
+  <!-- ═══════════════════════ GLOWING ORB + ORBIT ═══════════════════════ -->
+  <g class="orb-group" transform="translate(1340, 148)">
+
+    <!-- Outer glow ring -->
+    <ellipse cx="0" cy="0" rx="85" ry="22"
+             fill="none" stroke="#00ff00" stroke-width="1"
+             stroke-opacity="0.3" transform="rotate(-15)"/>
+
+    <!-- Orbit ring 1 -->
+    <ellipse cx="0" cy="0" rx="75" ry="18"
+             fill="none" stroke="url(#ringGrad)" stroke-width="1.5"
+             stroke-opacity="0.7" transform="rotate(-15)"/>
+
+    <!-- Orbit ring 2 (perpendicular) -->
+    <ellipse cx="0" cy="0" rx="75" ry="18"
+             fill="none" stroke="#00ff00" stroke-width="1"
+             stroke-opacity="0.4" transform="rotate(75)"/>
+
+    <!-- Orbit dot 1 -->
+    <circle cx="75" cy="0" r="4" fill="#00ff00" fill-opacity="0.9"
+            filter="url(#orbGlow)" transform="rotate(-15)"/>
+
+    <!-- Orbit dot 2 -->
+    <circle cx="-75" cy="0" r="3" fill="#00ff00" fill-opacity="0.6"
+            transform="rotate(75)"/>
+
+    <!-- Main orb shadow -->
+    <ellipse cx="5" cy="52" rx="40" ry="8"
+             fill="#00ff00" fill-opacity="0.08"/>
+
+    <!-- Main orb -->
+    <circle cx="0" cy="0" r="48"
+            fill="url(#orbGrad)" filter="url(#orbGlow)"/>
+
+    <!-- Orb highlight -->
+    <ellipse cx="-14" cy="-16" rx="16" ry="10"
+             fill="white" fill-opacity="0.18" transform="rotate(-25)"/>
+
+    <!-- Orb inner glow ring -->
+    <circle cx="0" cy="0" r="48"
+            fill="none" stroke="#00ff00" stroke-width="2"
+            stroke-opacity="0.5"/>
+  </g>
+
+</svg>
