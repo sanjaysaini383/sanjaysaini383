@@ -93,30 +93,22 @@ const sanjay = {
 </div>
 
 ---
-
-## 📊 GitHub Stats
-
+## `> ./stats --verbose`
+ 
 <div align="center">
+  
+<!-- <img width="49%" src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&icon_color=ffd700&text_color=c9d1d9&rank_icon=percentile&include_all_commits=true&count_private=true" /> -->
+<img width="46%" src="https://github-readme-streak-stats.herokuapp.com/?user=sanjaysaini383&theme=dark&hide_border=true&background=0a0a0a&stroke=00ff41&ring=ffd700&fire=ff4444&currStreakLabel=00ff41&sideLabels=ffd700&dates=888888" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=sanjaysaini383&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff&text_color=c9d1d9&rank_icon=github" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=sanjaysaini383&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff" />
-
-</div>
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&langs_count=8" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanjaysaini383&bg_color=0d1117&color=00d4ff&line=00d4ff&point=ff6b35&area=true&hide_border=true" />
-
+<!-- <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&text_color=c9d1d9&langs_count=10" /> -->
+<img width="52%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanjaysaini383&bg_color=0a0a0a&color=00ff41&line=ffd700&point=ff4444&area=true&hide_border=true&area_color=00ff1a" />
 </div>
 
 ---
 
-## 🏆 Trophies
-
+## `> cat trophy_case.txt`
+ 
 <div align="center">
-
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=sanjaysaini383&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=7" />
-
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=sanjaysaini383&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7" />
 </div>
 
