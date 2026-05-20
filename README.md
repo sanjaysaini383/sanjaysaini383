@@ -83,8 +83,7 @@ I'm a Full Stack Engineer and AI systems builder focused on shipping production-
 </div>
 
 <div align="center">
- <img width="70%" src="https://streak-stats.demolab.com?user=sanjaysaini383&hide_border=true&background=0F172A&stroke=00F5FF&ring=00F5FF&fire=38BDF8&currStreakLabel=00F5FF&sideLabels=E2E8F0&dates=94A3B8"/>
-</div>
+<img width="70%" src="https://streak-stats.demolab.com?user=sanjaysaini383&hide_border=true&background=161b22&stroke=30363d&ring=79c0ff&fire=f78166&currStreakLabel=79c0ff&sideLabels=e6edf3&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3"/></div>
 
 ---
 
