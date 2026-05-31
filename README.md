@@ -23,7 +23,7 @@ I'm a Full Stack Engineer and AI systems builder focused on shipping production-
 - 🧠 &nbsp;Deep interest in LLM systems, RAG architectures, and real-time infrastructure
 - ⚔️ &nbsp;Competitive programmer in C++ — DSA is a daily habit
 - 🤝 &nbsp;Open to collaborations, internships, and open source contributions
-- 📍 &nbsp;India
+- 📍 &nbsp;Jaipur,Rajasthan,India
 
 ---
 
