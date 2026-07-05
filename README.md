@@ -89,8 +89,8 @@ I'm a Full Stack Engineer and AI systems builder focused on shipping production-
 
 ### Activity
 
-<div align="center">
+<!-- <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=sanjaysaini383&bg_color=0d1117&color=6366f1&line=6366f1&point=f59e0b&area=true&hide_border=true&area_color=6366f120"/>
-</div>
+</div> -->
 
 
