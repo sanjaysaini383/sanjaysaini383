@@ -77,13 +77,13 @@ I'm a Full Stack Engineer and AI systems builder focused on shipping production-
 
 ### GitHub Stats
 
-<div align="center">
+<!-- <div align="center">
   <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sanjaysaini383&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=9ca3af&rank_icon=percentile&include_all_commits=true&count_private=true"/>
   <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sanjaysaini383&layout=compact&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=9ca3af&langs_count=8"/>
 </div>
 
 <div align="center">
-<img width="70%" src="https://streak-stats.demolab.com?user=sanjaysaini383&hide_border=true&background=161b22&stroke=30363d&ring=79c0ff&fire=f78166&currStreakLabel=79c0ff&sideLabels=e6edf3&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3"/></div>
+<img width="70%" src="https://streak-stats.demolab.com?user=sanjaysaini383&hide_border=true&background=161b22&stroke=30363d&ring=79c0ff&fire=f78166&currStreakLabel=79c0ff&sideLabels=e6edf3&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3"/></div> -->
 
 ---
 
