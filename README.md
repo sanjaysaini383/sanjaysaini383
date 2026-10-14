@@ -42,12 +42,4 @@ Full-stack engineer who builds production-grade applications end to end. I desig
   <img width="80%" src="https://streak-stats.demolab.com?user=sanjaysaini383&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3"/>
 </div>
 
-## Contribution Activity
 
-<div align="center">
-  <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sanjaysaini383&theme=github_dark"/>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2a44,100:0d1117&height=100&section=footer" width="100%"/>
-</div>
